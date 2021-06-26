@@ -1,124 +1,128 @@
-body{
-    position: absolute;
-    width: 1600px;
-    height: 1534px;
-    left: 0px;
-    top: 70px;
+body {
+  position: absolute;
+  width: 1600px;
+  height: 1534px;
+  left: 0px;
+  top: 70px;
 }
 /*background image*/
-.image{
-    background-image: url('./image\ 28.png');
-    position: absolute;
-    width: 984px;
-    height: 1076px;
-    left: 152px;
-    top: 7px;
+.image {
+  background-image: url("./image\ 28.png");
+  position: absolute;
+  width: 984px;
+  height: 1076px;
+  left: 152px;
+  top: 7px;
 }
 /*form styling*/
-.formcontainer{
-    position: absolute;
-    width: 650px;
-    height: 752px;
-    left: 575px;
-    top: 193px;
-    padding-left: 2.5em;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), #7E7A8F;
-    border-radius: 20px;
+.formcontainer {
+  position: absolute;
+  width: 650px;
+  height: 752px;
+  left: 575px;
+  top: 193px;
+  padding-left: 2.5em;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0.75)
+    ),
+    #7e7a8f;
+  border-radius: 20px;
 }
 /*inside form styling */
-form{
-    display: flex;
-    flex-direction: column;
-    width: 343px;
-    height: 40px;
-    left: 0px;
-    top: 23px;
-    padding-bottom: 5em;
-    box-sizing: border-box;
-    border-radius: 4px;
+form {
+  display: flex;
+  flex-direction: column;
+  width: 343px;
+  height: 40px;
+  left: 0px;
+  top: 23px;
+  padding-bottom: 5em;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 /* inside the form*/
-label{
-    line-height: 18px;
-    font-size: 13px;
-    font-weight: bold;
+label {
+  line-height: 18px;
+  font-size: 13px;
+  font-weight: bold;
 }
-input{
-    padding: 0.5em;
-    border: 1px solid #c3c7D2;
-    width: 343px;
+input {
+  padding: 0.5em;
+  border: 1px solid #c3c7d2;
+  width: 343px;
 }
 
 /*heading styling*/
-h1{
-    width: 471.6px;
-    height: 124px;
-    left: 674px;
-    top: 378px;
-    padding-top: 1em;
-    font-weight: bold;
-    font-size: 39px;
-    line-height: 62px;
-    letter-spacing: -0.2px;
+h1 {
+  width: 471.6px;
+  height: 124px;
+  left: 674px;
+  top: 378px;
+  padding-top: 1em;
+  font-weight: bold;
+  font-size: 39px;
+  line-height: 62px;
+  letter-spacing: -0.2px;
 
-    color: #180126;
-
+  color: #180126;
 }
-h5{
-    position: absolute;
-    width: 221.89px;
-    height: 34px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 37px;
-    align-self: right;
-    clear: both;
-/* identical to box height */
-    letter-spacing: -0.2px;
-    color: #180126;
+h5 {
+  position: absolute;
+  width: 221.89px;
+  height: 34px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 37px;
+  align-self: right;
+  clear: both;
+  /* identical to box height */
+  letter-spacing: -0.2px;
+  color: #180126;
 }
 /*forgot password link*/
-.forgot{
-    font-family: Hind;
-    font-style: normal;
-    font-size: 13px;
-    color: #8A8A8A;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 3em;
+.forgot {
+  font-family: Hind;
+  font-style: normal;
+  font-size: 13px;
+  color: #8a8a8a;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 3em;
 }
 
 /*button styling*/
-.b1{
-    font-size: 23px;
-    margin-top: 3em;
-    font-style: normal;
-    font-weight: bold;
-    display: inline-block;
-    margin-right: 18em;
+.b1 {
+  font-size: 23px;
+  margin-top: 3em;
+  font-style: normal;
+  font-weight: bold;
+  display: inline-block;
+  margin-right: 18em;
 }
 
-.b2{
-    display: inline-block;
-    background: #EAEAEA;
-    border-radius: 50px;
-    padding: 0.8em 3em;
-    border: none;
-    font-style: normal;
-    font-weight: bold;
-    text-align: center;
-    margin-right: 1.5em;
+.b2 {
+  display: inline-block;
+  background: #eaeaea;
+  border-radius: 50px;
+  padding: 0.8em 3em;
+  border: none;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  margin-right: 1.5em;
 }
-.b3{
-    background: #EAEAEA;
-    border-radius: 50px;
-    padding: 0.8em 3.5em;
-    border: none;
-    font-style: normal;
-    font-weight: bold;
-    color: #8A8A8A;
-    text-align: center;
-    margin-top: 5em;
-    margin-left: 6.5em;
+.b3 {
+  background: #eaeaea;
+  border-radius: 50px;
+  padding: 0.8em 3.5em;
+  border: none;
+  font-style: normal;
+  font-weight: bold;
+  color: #8a8a8a;
+  text-align: center;
+  margin-top: 5em;
+  margin-left: 6.5em;
 }
