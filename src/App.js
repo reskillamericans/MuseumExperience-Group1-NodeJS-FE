@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-import './component/Login/style.css';
-import Login from './component/Login/Login'
+import Footer from "./component/Footer/Footer";
+import Navbar from "./component/Navbar/Navbar";
+import ExhibitInfo from './component/ExhibitInfo/ExhibitInfo';
+
 function App() {
   return (
-    <div className="container">
-
-      <Login/>
+    <div className="App">
+      <ExhibitInfo />
+      <Footer />
     </div>
   );
 }
