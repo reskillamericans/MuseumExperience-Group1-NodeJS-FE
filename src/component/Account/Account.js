@@ -10,7 +10,7 @@ import "./Account.css";
 
 function Account() {
   return (
-    <>
+    <div className="account">
       <header>
         <div className="head">
           <h1 className="my-account">MY ACCOUNT</h1>
@@ -75,7 +75,7 @@ function Account() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }
 

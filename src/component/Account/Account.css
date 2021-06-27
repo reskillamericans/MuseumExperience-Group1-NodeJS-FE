@@ -1,36 +1,31 @@
+.account {
+  padding: .04em;
+}
+
 .head{
     display:flex;
-    /*width: 1600px;*/
-    height: 130px;
+    width: 100%;
+    height: auto;
     left: 0px;
     top: 27px;
     background-color: #7E7A8F;
-    /*margin-left: 15px;*/
   }
   
   .my-account{
-  width: 337px;
   height: 68px;
-  left: 17px;
-  top: 16px;
   font-family: Hind;
   font-style: normal;
   font-weight: bold;
-  font-size: 39px;
+  font-size: 30px;
   line-height: 62px;
   letter-spacing: -0.2px;
   color: #000000;
   margin-top: 20px;
   }
   
-  b{
-    margin-left:15px;
-  }
-  
   .search-button{
     position:relative;
-    left:17px;
-    width: 590px;
+    width: 420px;
     height: 35px;
     top: 6px;
     background: #FFFFFF;
@@ -43,16 +38,9 @@
     text-align: left;
     color: #8A8A8A;
     margin-top:30px;
-    margin-left:630px;
-    
   }
   
   .search-button img {
-    left: 89.38%;
-    right: 5.77%;
-    top: 1.53%;
-    bottom: 23.4%;
-    margin-left:490px;
     margin-top:5px;
   }
   
@@ -111,8 +99,7 @@
   
   
   .add-exhibit{
-    margin-left:700px;
-    margin-top:25px;
+    margin-top:80px;
     background: #E8840D;
     color:#FFFFFF;
     border-radius: 50px;
@@ -123,9 +110,8 @@
     line-height: 31px;
     text-align: center;
     letter-spacing: -0.2px;
-    width:197px;
-    height: 101px;
-    
+    width:20%;
+    height: 60px;
   }
   
   .name{
@@ -159,24 +145,12 @@
   margin-top:-15px;
   }
   
-  
-  body {
-    background-color: #F9F9F9;
-    font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    display:flex;
-    justify-content: center;
-  
-  }
-  
   .subscribed{
     display:flex;
-    margin-left: 115px;
     margin-top:65px;
     background-color:#C3C7D2;
     flex-direction: column;
     flex-wrap:wrap;
-    width:1261px;
     height:1305px;
     justify-content: space-between;
     align-items: center;

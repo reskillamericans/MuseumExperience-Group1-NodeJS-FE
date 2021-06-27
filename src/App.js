@@ -8,7 +8,7 @@ function App() {
       <Navbar />
       <Footer />
       <ExhibitInfo /> */}
-      <Account />
+      {/* <Account /> */}
     </div>
   );
 }
