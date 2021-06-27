@@ -7,8 +7,10 @@ function App() {
       <Login />
       <Navbar />
       <Footer />
-      <ExhibitInfo /> */}
+      <ExhibitInfo /> 
+      <SearchPage />*/}
       <Account /> 
+      
     </div>
   );
 }
