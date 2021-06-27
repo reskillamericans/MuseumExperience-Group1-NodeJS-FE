@@ -1,9 +1,4 @@
-body { 
-    margin: 0;
-    height: 100%;
-  }
-  
-  .head{
+.head{
     display:flex;
     /*width: 1600px;*/
     height: 130px;
