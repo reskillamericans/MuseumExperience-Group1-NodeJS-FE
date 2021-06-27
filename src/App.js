@@ -1,4 +1,4 @@
-import "./App.css";
+import Account from "./component/Account/Account";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <Navbar />
       <Footer />
       <ExhibitInfo /> */}
-      {/* <Account /> */}
+      <Account /> 
     </div>
   );
 }
