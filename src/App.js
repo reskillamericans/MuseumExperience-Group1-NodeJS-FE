@@ -1,16 +1,10 @@
-import "./App.css";
-/* import Footer from "./component/Footer/Footer";
-import Navbar from "./component/Navbar/Navbar";
-import ExhibitInfo from './component/ExhibitInfo/ExhibitInfo';
-import Login from './component/Login/Login'; */
+import './App.css';
+import ExhibitPage from './component/ExhibitPage/ExhibitPage';
 
 function App() {
   return (
     <div className="App">
-      {/* <Navbar />
-      <ExhibitInfo />
-      <Login />
-      <Footer /> */}
+      <ExhibitPage />
     </div>
   );
 }
