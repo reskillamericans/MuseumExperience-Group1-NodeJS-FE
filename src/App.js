@@ -1,14 +1,11 @@
-import "./App.css";
+import './App.css';
+import Homepage from './component/Homepage/Homepage';
 
 function App() {
   return (
     <div className="App">
-      {/* <ExhibitPage />
-      <Login />
-      <Navbar />
-      <Footer />
-      <ExhibitInfo /> */}
-      {/* <Account /> */}
+      <Homepage />
+
     </div>
   );
 }
