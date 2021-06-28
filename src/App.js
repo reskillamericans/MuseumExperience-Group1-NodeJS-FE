@@ -1,4 +1,6 @@
-import Account from "./component/Account/Account";
+import Account from "./component/Account/Account"
+import './App.css';
+import Homepage from './component/Homepage/Homepage';
 
 function App() {
   return (
@@ -11,7 +13,10 @@ function App() {
       <SearchPage />*/
       <Account /> }
       
-      
+      <ExhibitInfo /> */}
+      {/* <Account /> */}
+      <Homepage />
+
     </div>
   );
 }
