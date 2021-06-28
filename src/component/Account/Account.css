@@ -116,8 +116,9 @@
     letter-spacing: -0.2px;
     width:15%;
     height: 30px;
-    margin-left:715px;
-    padding-right:2em;
+    margin-left:705px;
+    padding-right:.5em;
+    border-style: none;
   }
   
   .name{
@@ -157,12 +158,12 @@
     background-color:#C3C7D2;
     flex-direction: column;
     flex-wrap:wrap;
-    width:741px;
-    height:625px;
+    width:641px;
+    height:525px;
     justify-content: space-between;
     border-radius: 45px;
     box-shadow:  0px 2px 5px rgb(80, 79, 79);
-    margin-left:400px;
+    margin-left:480px;
     justify-content: center;
   }
   
@@ -200,7 +201,7 @@
 
   .topbox{
   display: flex;
-  width: 741px;
+  width: 641px;
   height: 139px;
   background: #DFDEE3;
   border-radius: 15px;
@@ -221,7 +222,7 @@
   }
   
   .bottombox{
-  width: 741px;
+  width: 641px;
   height: 185px;
   background: #DFDEE3;
   border-radius: 15px;
@@ -234,39 +235,21 @@
   font-size:18px;
   }
   
-  
-  button { 
-  width: 440px;
-  height: 30px;
-  background: #F9F9F9;
-  border: 1px solid #000000;
-  box-sizing: border-box;
-  border-radius: 5px;
-  font-size: 12px;
-  margin-top:2px;
-  margin-left:155px;
-  text-align: left;
-  font-family: Hind;
-  line-height: .5px;
-  letter-spacing: -0.2px;
-  padding-left:2em;
-  }
-
-
+ 
   .plus1{
-    margin-left:570px;
+    margin-left:530px;
     margin-top:-28px;
     margin-bottom:26px;
   }
   
   .plus2{
-    margin-left:570px;
+    margin-left:530px;
     margin-top:-29px;
     margin-bottom:26px;
   }
   
   .plus3{
-    margin-left:570px;
+    margin-left:530px;
     margin-top:-27px;
     margin-bottom:26px;
     
@@ -280,7 +263,7 @@
   border-radius: 5px;
   background: #F9F9F9;
   margin-top:2px;
-  margin-left:155px;
+  margin-left:115px;
   text-align: left;
   font-family: Hind;
   line-height: .5px;
