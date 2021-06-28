@@ -1,24 +1,21 @@
 import SearchPage from "./component/SearchPage/SearchPage";
-import Account from "./component/Account/Account"
-import './App.css';
-import Homepage from './component/Homepage/Homepage';
+import Account from "./component/Account/Account";
+import "./App.css";
+import Homepage from "./component/Homepage/Homepage";
 
 function App() {
   return (
-    <div className="App">  
+    <div className="App">
       {/* <ExhibitPage />
       <Login />
       <Navbar />
       <Footer />
-      <ExhibitInfo /> 
-      <Account />*/
+      <ExhibitInfo />
+      <Account />
       <SearchPage />
-       }
-      
-      <ExhibitInfo /> */}
-      {/* <Account /> */}
-      <Homepage />
-
+      <ExhibitInfo />
+      <Account />
+      <Homepage /> */}
     </div>
   );
 }
