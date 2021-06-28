@@ -60,7 +60,7 @@ function Account() {
                
               <div className="first"><img src={image49} className="check1"  alt="checkbox" width="12" height="12"/>
             
-                 Suspendisse luctus ornare iaculis.</div>
+                Suspendisse luctus ornare iaculis.</div>
       
               <img src={plus} className="plus1" alt="plus" width="10" height="10"/> 
               
