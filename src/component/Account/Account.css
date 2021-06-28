@@ -96,27 +96,28 @@
   }
   
   h3{
-    font-size:22px;
+    font-size:17px;
     line-height: 35px;
     font-weight: 500;
   }
   
   
   .add-exhibit{
-    margin-top: 20px;
+    margin-top: 2px;
     background: #E8840D;
     color:#FFFFFF;
     border-radius: 50px;
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 23px;
-    line-height: 31px;
+    font-size: 17px;
+    line-height: .5px;
     text-align: center;
     letter-spacing: -0.2px;
-    width:20%;
-    height: 40px;
-    margin-left:670px;
+    width:15%;
+    height: 30px;
+    margin-left:715px;
+    padding-right:2em;
   }
   
   .name{
@@ -125,7 +126,7 @@
     font-family: Hind;
     font-style: normal;
     font-weight: bold;
-    font-size: 39px;
+    font-size: 30px;
     line-height: 62px;
     text-align: center;
     letter-spacing: -0.2px;
@@ -141,13 +142,13 @@
   font-family: Hind;
   font-style: normal;
   font-weight: bold;
-  font-size: 23px;
+  font-size: 18px;
   line-height: 37px;
   text-align: center;
   letter-spacing: -0.2px;
   color: #C3C7D2;
   margin-left:620px;
-  margin-top:-15px;
+  margin-top:-30px;
   }
   
   .subscribed{
@@ -156,8 +157,8 @@
     background-color:#C3C7D2;
     flex-direction: column;
     flex-wrap:wrap;
-    width:761px;
-    height:605px;
+    width:741px;
+    height:625px;
     justify-content: space-between;
     border-radius: 45px;
     box-shadow:  0px 2px 5px rgb(80, 79, 79);
@@ -168,8 +169,8 @@
   .topbox-text {
     display: inline-flex;
     justify-content:space-between;
-    margin-top:-12px;
-    
+    margin-top:-122px;
+    margin-inline:20px;
   }
   
   .exhibit-text1 {
@@ -177,7 +178,6 @@
   font-style: normal;
   font-weight: bold;
   font-size: 15px;
-  
   letter-spacing: -0.2px;
   color: #180126;
   }
@@ -188,6 +188,7 @@
     font-weight: bold;
     font-size: 15px;
     letter-spacing: -0.2px;
+    margin-inline:12px;
     color: #8A8A8A;
   }
 
@@ -199,10 +200,10 @@
 
   .topbox{
   display: flex;
-  width: 761px;
-  height: 129px;
+  width: 741px;
+  height: 139px;
   background: #DFDEE3;
-  border-radius: 35px;
+  border-radius: 15px;
   justify-content: center;
   }
   
@@ -213,85 +214,96 @@
   }
   
   .paintings img{
-  margin-inline: 30px;
+  margin-inline: 12px;
   width: 100px;
-  height:110px;
+  height:120px;
   margin-top:-45px;
   }
   
   .bottombox{
-  width: 761px;
-  height: 239px;
+  width: 741px;
+  height: 185px;
   background: #DFDEE3;
-  border-radius: 35px;
+  border-radius: 15px;
   margin-top: 25px;
 }
  
   .q-history{
   text-align: center;
   margin-top:7px;
+  font-size:18px;
   }
   
   
   button { 
-  width: 590px;
-  height: 47px;
+  width: 440px;
+  height: 30px;
   background: #F9F9F9;
   border: 1px solid #000000;
   box-sizing: border-box;
-  border-radius: 20px;
-  display:inline-block;
-  margin-top:4px;
-  margin-left:80px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-top:2px;
+  margin-left:155px;
   text-align: left;
   font-family: Hind;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 23px;
-  line-height: 37px;
+  line-height: .5px;
   letter-spacing: -0.2px;
-  align-content: center;
-  
+  padding-left:2em;
   }
-  
-  .check1{
-    margin-left:10px;
-    margin-top:15px;
-    padding-top:5px;
-    margin-right:15px;
-    margin-bottom:-5px;
-  }
-  .check2{ 
-    margin-left:10px;
-    margin-top:15px;
-    padding-top:5px;
-    margin-right:15px;
-    margin-bottom:-5px;
-  }
-  
-  .check3{
-    margin-left:10px;
-    margin-top:15px;
-    padding-top:5px;
-    margin-right:15px;
-    margin-bottom:-5px;
-  }
-  
+
+
   .plus1{
-    margin-left:551px;
+    margin-left:570px;
     margin-top:-28px;
-    margin-bottom:55px;
+    margin-bottom:26px;
   }
   
   .plus2{
-    margin-left:553px;
+    margin-left:570px;
     margin-top:-29px;
-    margin-bottom:55px;
+    margin-bottom:26px;
   }
   
   .plus3{
-    margin-left:555px;
+    margin-left:570px;
     margin-top:-27px;
-    margin-bottom:55px;
+    margin-bottom:26px;
     
   }
+
+ .first, .second, .third {
+  width: 440px;
+  height: 30px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: #F9F9F9;
+  margin-top:2px;
+  margin-left:155px;
+  text-align: left;
+  font-family: Hind;
+  line-height: .5px;
+  letter-spacing: -0.2px;
+  padding-left:2em;
+  font-size: 12px;
+}
+
+.check1{
+  margin-right:16px;
+  margin-top:5px;
+
+}
+
+.check2{
+  margin-right:16px;
+  margin-top:5px;
+
+}
+
+
+.check3{
+  margin-right:16px;
+  margin-top:5px;
+
+}
