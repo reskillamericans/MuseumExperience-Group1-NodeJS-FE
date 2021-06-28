@@ -23,7 +23,6 @@ function Account() {
       <section className="main">
         <div className="card">
           <div className="card-header"></div>
-
           <div className="card-body"></div>
           <div className="img-holder">
             <img src={image36} alt="profilepic" />
@@ -47,6 +46,7 @@ function Account() {
               <h2 className="exhibit-text1">Your Subscribed Exhibits</h2>
               <h2 className="exhibit-text2">Upcoming Exhibits</h2>
             </div>
+            <div className="innerboxes">
             <div className="topbox">
               <div className="paintings">
                 <img src={image5} alt="pic1" />
@@ -55,23 +55,29 @@ function Account() {
               </div>
             </div>
             <div className="bottombox">
+          
               <h2 className="q-history">Question History</h2>
-              <button className="firstname">
-                <img src={image49} className="check1" alt="checkbox" />{" "}
-                Suspendisse luctus ornare iaculis.
-                <img src={plus} className="plus1" alt="plus" />
-              </button>
-              <button className="lastname">
-                <img src={image49} className="check2" alt="checkbox" />
-                Donec ut feugiat leo. Nullam at mauris eros.{" "}
-                <img src={plus} className="plus2" alt="plus" />
-              </button>
-              <button className="email">
-                <img src={image49} className="check3" alt="checkbox" />
-                Fusce ut consequat eros, eget vehicula ante{" "}
-                <img src={plus} className="plus3" alt="plus" />
-              </button>
+               
+              <div className="first"><img src={image49} className="check1"  alt="checkbox" width="12" height="12"/>
+            
+                 Suspendisse luctus ornare iaculis.</div>
+      
+              <img src={plus} className="plus1" alt="plus" width="10" height="10"/> 
+              
+              
+              <div className="second"><img src={image49} className="check2"  alt="checkbox" width="12" height="12"/>
+              Donec ut feugiat leo. Nullam at mauris eros.
+              </div> 
+              <img src={plus} className="plus2" alt="plus" width="10" height="10"/>
+              
+              <div className="third">
+              <img src={image49} className="check3"  alt="checkbox" width="12" height="12"/>
+              Fusce ut consequat eros, eget vehicula ante </div>
+              <img src={plus} className="plus3" alt="plus" width="10" height="10"/>
+              </div>
+              
             </div>
+            
           </div>
         </div>
       </section>
