@@ -1,4 +1,5 @@
-import "./App.css";
+import './App.css';
+import Homepage from './component/Homepage/Homepage';
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <Footer />
       <ExhibitInfo /> */}
       {/* <Account /> */}
+      <Homepage />
+
     </div>
   );
 }
