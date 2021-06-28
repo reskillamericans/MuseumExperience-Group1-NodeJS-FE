@@ -1,4 +1,4 @@
-import Account from "./component/Account/Account";
+import SearchPage from "./component/SearchPage/SearchPage";
 
 function App() {
   return (
@@ -8,8 +8,9 @@ function App() {
       <Navbar />
       <Footer />
       <ExhibitInfo /> 
-      <SearchPage />*/
-      <Account /> }
+      <Account />*/
+      <SearchPage />
+       }
       
       
     </div>
