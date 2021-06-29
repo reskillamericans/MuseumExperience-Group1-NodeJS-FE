@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div class="footer-main">
       <footer>
-        <div class="container">
+        <div class="footer_container">
           <div class="col-sm-4 col-md-3 item item-1">
             <h3>VISIT US</h3>
             <ul>
@@ -23,7 +23,7 @@ function Footer() {
             <p class="email">Email Address</p>
             <div class="buttonIn">
               <input type="text" id="enter" />
-              <button id="signup">Sign up</button>
+              <button id="signup" className="button">Sign up</button>
             </div>
           </div>
           <div class="col-sm-4 col-md-3 item item-3">

@@ -1,36 +1,49 @@
 import logo from "./navbarimages/museumlogo.svg";
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
   return (
-    <header>
-      <div class="container">
-        <img src={logo} alt="Logo" class="logo" />
+    <div className="navbar">
+      <div className="nav_header">
+        <div class="nav_container">
+          <img src={logo} alt="Logo" class="logo" />
 
-        <p>Museum Experience</p>
+          <p>Museum Experience</p>
 
-        <nav>
-          <ul>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">Exhibits</a>
-            </li>
-            <li>
-              <a href="#">Register</a>
-            </li>
-            <li>
-              <a href="#">Login</a>
-            </li>
-            <li>
-              <a href="#">About Us</a>
-            </li>
-          </ul>
-        </nav>
+          <nav>
+            <ul>
+              <li>
+                <Link to="#" className="a">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link to="#" className="a">
+                  Exhibits
+                </Link>
+              </li>
+              <li>
+                <Link to="#" className="a">
+                  Register
+                </Link>
+              </li>
+              <li>
+                <Link to="#" className="a">
+                  Login
+                </Link>
+              </li>
+              <li>
+                <Link to="#" className="a">
+                  About Us
+                </Link>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </div>
-    </header>
+    </div>
   );
 }
 export default Navbar;

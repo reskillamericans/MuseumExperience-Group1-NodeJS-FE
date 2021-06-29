@@ -6,17 +6,17 @@
   --secondarycolor: #e8840d;
 }
 
-body {
+.navbar {
   font-family: "Hind", sans-serif;
   font-size: 16px;
   background: var(--background);
 }
-.container {
+.nav_container {
   width: 90%;
   margin: 0 auto;
 }
 
-header::after {
+.nav_header::after {
   content: "";
   display: table;
   clear: both;
@@ -51,16 +51,16 @@ nav li {
   position: relative;
 }
 
-nav a {
+nav ul li .a {
   color: var(--primarytext);
   text-decoration: none;
 }
 
-nav a:hover {
+nav ul li .a:hover {
   color: var(--secondarycolor);
 }
 
-nav a::after {
+nav ul li .a::after {
   content: "";
   display: block;
   height: 2px;
@@ -70,6 +70,6 @@ nav a::after {
   transition: all ease-in-out 200ms;
 }
 
-nav a:hover::after {
+nav ul li .a:hover::after {
   width: 100%;
 }

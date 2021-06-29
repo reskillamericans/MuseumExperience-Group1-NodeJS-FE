@@ -6,14 +6,10 @@
   --secondarycolor: #e8840d;
 }
 
-body {
-  font-family: "Hind", sans-serif;
-  background: var(--background);
-}
-
 .footer-main {
   position: relative;
-  height: 80vh;
+  font-family: "Hind", sans-serif;
+  background: var(--background);
 }
 
 footer {
@@ -24,11 +20,11 @@ footer {
   height: 1rem;
   color: var(--primarytext);
 }
-.container {
+.footer_container {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding-bottom: 50px;
+  padding: 2em 0 ;
 }
 .item-2 {
   width: 30%;
@@ -85,7 +81,7 @@ input:focus {
   outline-width: 0;
 }
 
-button {
+.button {
   position: absolute;
   width: 30%;
   left: 280px;

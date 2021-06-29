@@ -10,15 +10,15 @@ import "./SearchPage.css";
 function SearchPage() {
   return (
     <div className="SearchPage">
-      <header>
-        <div className="head">
+      <div>
+        <div className="search_head">
           <h1 className="search-results">SEARCH/RESULTS</h1>
           <button className="search-button">
             <b>Search</b>
             <img src={vector} alt="magnifier" />
           </button>
         </div>
-      </header>
+      </div>
 
       <h1 className="resultstext">735 results for "degas"</h1>
       <div className="artsearch">

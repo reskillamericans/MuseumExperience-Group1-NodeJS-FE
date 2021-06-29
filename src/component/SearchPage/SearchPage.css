@@ -1,9 +1,10 @@
 .SearchPage {
   height: 100%;
   background-color: rgb(229, 229, 229);
+  overflow-x: hidden;
 }
 
-.head {
+.search_head {
   display: flex;
   width: 100%;
   height: auto;
@@ -50,7 +51,7 @@
   margin-left: 265px;
 }
 
-h1 {
+.search_head > h1 {
   margin-left: 50px;
   font-size: 33px;
 }
@@ -97,7 +98,7 @@ h1 {
   width: 43px;
   justify-items: center;
 }
-p {
+.resultslisting > p {
   color: black;
   font-size: 21px;
 }
