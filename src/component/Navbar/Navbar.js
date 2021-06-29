@@ -15,27 +15,27 @@ function Navbar() {
           <nav>
             <ul>
               <li>
-                <Link to="#" className="a">
+                <Link to="/" className="a">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="#" className="a">
+                <Link to="/exhibitpage" className="a">
                   Exhibits
                 </Link>
               </li>
               <li>
-                <Link to="#" className="a">
+                <Link to="/register" className="a">
                   Register
                 </Link>
               </li>
               <li>
-                <Link to="#" className="a">
+                <Link to="/login" className="a">
                   Login
                 </Link>
               </li>
               <li>
-                <Link to="#" className="a">
+                <Link to="/about" className="a">
                   About Us
                 </Link>
               </li>

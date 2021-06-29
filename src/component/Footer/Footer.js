@@ -23,22 +23,24 @@ function Footer() {
             <p class="email">Email Address</p>
             <div class="buttonIn">
               <input type="text" id="enter" />
-              <button id="signup" className="button">Sign up</button>
+              <button id="signup" className="button">
+                Sign up
+              </button>
             </div>
           </div>
           <div class="col-sm-4 col-md-3 item item-3">
             <ul>
               <li>
-                <a href="#">SUPPORT</a>
+                <a>SUPPORT</a>
               </li>
               <li>
-                <a href="#">MEMBERSHIP</a>
+                <a>MEMBERSHIP</a>
               </li>
               <li>
-                <a href="#">HOST AN EVENT</a>
+                <a>HOST AN EVENT</a>
               </li>
               <li>
-                <a href="#">CORPORATE SUPPORT</a>
+                <a>CORPORATE SUPPORT</a>
               </li>
             </ul>
           </div>

@@ -16,54 +16,54 @@ function Homepage() {
     <>
       <Navbar />
       <div className="homepage">
-        <div className="container">
+        <div className="home_container">
           <h1>
             WELCOME TO <br /> MUSEUM EXPERIENCE!
           </h1>
-          <div className="hero" style={{ backgroundImage: `url(${hero})` }}>
-            <div className="heroCenter">
-              <p className="heroTitle">Welcome to the Museum Experience!</p>
-              <p className="heroSubTitle">
+          <div className="homepage_hero" style={{ backgroundImage: `url(${hero})` }}>
+            <div className="homepage_heroCenter">
+              <p className="homepage_heroTitle">Welcome to the Museum Experience!</p>
+              <p className="homepage_heroSubTitle">
                 Explore exhibition galleries, videos, articles, and more.
               </p>
-              <a className="heroLink" target="_blank" rel="noreferrer" href="#">
-                <div className="heroBtn">Click to continue</div>
+              <a className="homepage_heroLink">
+                <div className="homepage_heroBtn">Click to continue</div>
               </a>
             </div>
           </div>
-          <div className="imgBtns">
-            <a target="_blank" rel="noreferrer" href="#">
-              <img className="topImg" src={exhibits} alt="" />
-              <p className="viewBtn">Exhibits on View</p>
+          <div className="homepage_imgBtns">
+            <a>
+              <img className="homepage_topImg" src={exhibits} alt="" />
+              <p className="homepage_viewBtn">Exhibits on View</p>
             </a>
-            <a target="_blank" rel="noreferrer" href="#">
-              <img className="topImg" src={ask} alt="" />
-              <p className="viewBtn">Ask a Curator</p>
+            <a>
+              <img className="homepage_topImg" src={ask} alt="" />
+              <p className="homepage_viewBtn">Ask a Curator</p>
             </a>
-            <a target="_blank" rel="noreferrer" href="#">
-              <img className="topImg" src={sub} alt="" />
-              <p className="viewBtn">Subscribe to Exhibits</p>
+            <a>
+              <img className="homepage_topImg" src={sub} alt="" />
+              <p className="homepage_viewBtn">Subscribe to Exhibits</p>
             </a>
-            <a target="_blank" rel="noreferrer" href="#">
-              <img className="topImg" src={contact} alt="" />
-              <p className="viewBtn">Connect with Us</p>
+            <a>
+              <img className="homepage_topImg" src={contact} alt="" />
+              <p className="homepage_viewBtn">Connect with Us</p>
             </a>
           </div>
-          <div className="lrgImgs">
+          <div className="homepage_lrgImgs">
             <div>
-              <p className="imgLabel">Previous Collections</p>
-              <img className="botImg" src={collect} alt="" />
+              <p className="homepage_imgLabel">Previous Collections</p>
+              <img className="homepage_botImg" src={collect} alt="" />
             </div>
             <div>
-              <p className="imgLabel">Fundraising</p>
-              <img className="botImg" src={fund} alt="" />
+              <p className="homepage_imgLabel">Fundraising</p>
+              <img className="homepage_botImg" src={fund} alt="" />
             </div>
             <div>
-              <p className="imgLabel">Children's Events</p>
-              <img className="botImg" src={child} alt="" />
+              <p className="homepage_imgLabel">Children's Events</p>
+              <img className="homepage_botImg" src={child} alt="" />
             </div>
           </div>
-          <div className="space"></div>
+          <div className="homepage_space"></div>
         </div>
       </div>
       <Footer />

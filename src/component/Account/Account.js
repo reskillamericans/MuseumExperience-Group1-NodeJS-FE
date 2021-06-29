@@ -13,8 +13,8 @@ function Account() {
     <div className="account">
       <header>
         <div className="acc_head">
-          <h1 className="my-account">MY ACCOUNT</h1>
-          <button className="search-button">
+          <h1 className="acc_my-account">MY ACCOUNT</h1>
+          <button className="acc_search-button">
             <b>Search</b>
             <img src={vector} alt="magnifier" />
           </button>
@@ -22,45 +22,45 @@ function Account() {
       </header>
       <section className="acc_main">
         <div className="acc_card">
-          <div className="card-header"></div>
-          <div className="card-body"></div>
-          <div className="img-holder">
+          <div className="acc_card-header"></div>
+          <div className="acc_card-body"></div>
+          <div className="acc_img-holder">
             <img src={image36} alt="profilepic" />
           </div>
 
-          <div className="add-pic">
+          <div className="acc_add-pic">
             <img src={image47} alt="addpic" />
           </div>
 
-          <div className="text">
-            <h2 className="name">John Smith</h2>
-            <p>john.smith@email.com</p>
+          <div className="acc_text">
+            <h2 className="acc_name">John Smith</h2>
+            <h2 className="acc_email">john.smith@email.com</h2>
           </div>
 
-          <div className="button1">
-            <button className="add-exhibit"> Add Exhibit </button>
+          <div className="acc_button1">
+            <button className="acc_add-exhibit"> Add Exhibit </button>
           </div>
 
-          <div className="subscribed">
-            <div className="topbox-text">
-              <h2 className="exhibit-text1">Your Subscribed Exhibits</h2>
-              <h2 className="exhibit-text2">Upcoming Exhibits</h2>
+          <div className="acc_subscribed">
+            <div className="acc_topbox-text">
+              <h2 className="acc_exhibit-text1">Your Subscribed Exhibits</h2>
+              <h2 className="acc_exhibit-text2">Upcoming Exhibits</h2>
             </div>
-            <div className="innerboxes">
-              <div className="topbox">
-                <div className="paintings">
+            <div className="acc_innerboxes">
+              <div className="acc_topbox">
+                <div className="acc_paintings">
                   <img src={image5} alt="pic1" />
                   <img src={image10} alt="pic2" />
                   <img src={image11} alt="pic3" />
                 </div>
               </div>
-              <div className="bottombox">
-                <h2 className="q-history">Question History</h2>
+              <div className="acc_bottombox">
+                <h2 className="acc_q-history">Question History</h2>
 
-                <div className="first">
+                <div className="acc_first">
                   <img
                     src={image49}
-                    className="check1"
+                    className="acc_check1"
                     alt="checkbox"
                     width="12"
                     height="12"
@@ -70,16 +70,16 @@ function Account() {
 
                 <img
                   src={plus}
-                  className="plus1"
+                  className="acc_plus1"
                   alt="plus"
                   width="10"
                   height="10"
                 />
 
-                <div className="second">
+                <div className="acc_second">
                   <img
                     src={image49}
-                    className="check2"
+                    className="acc_check2"
                     alt="checkbox"
                     width="12"
                     height="12"
@@ -88,16 +88,16 @@ function Account() {
                 </div>
                 <img
                   src={plus}
-                  className="plus2"
+                  className="acc_plus2"
                   alt="plus"
                   width="10"
                   height="10"
                 />
 
-                <div className="third">
+                <div className="acc_third">
                   <img
                     src={image49}
-                    className="check3"
+                    className="acc_check3"
                     alt="checkbox"
                     width="12"
                     height="12"
@@ -106,7 +106,7 @@ function Account() {
                 </div>
                 <img
                   src={plus}
-                  className="plus3"
+                  className="acc_plus3"
                   alt="plus"
                   width="10"
                   height="10"

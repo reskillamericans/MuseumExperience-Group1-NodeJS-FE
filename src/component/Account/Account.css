@@ -12,7 +12,7 @@
   justify-content: space-between;
 }
 
-.my-account {
+.acc_my-account {
   position: relative;
   height: 68px;
   font-family: Hind;
@@ -26,7 +26,7 @@
   margin-left: 25px;
 }
 
-.search-button {
+.acc_search-button {
   width: 390px;
   height: 25px;
   background: #ffffff;
@@ -43,7 +43,7 @@
   padding-bottom: 35px;
 }
 
-.search-button img {
+.acc_search-button img {
   margin-top: 5px;
   margin-left: 265px;
 }
@@ -64,7 +64,7 @@
   background: url("./images/image 48.png");
 }
 
-.img-holder {
+.acc_img-holder {
   width: 237px;
   height: 232px;
   border-radius: 50%;
@@ -73,7 +73,7 @@
   margin: 324px auto 12px;
 }
 
-.img-holder img {
+.acc_img-holder img {
   width: 132px;
   height: 130px;
   left: 44px;
@@ -83,7 +83,7 @@
   margin-top: 42px;
 }
 
-.add-pic {
+.acc_add-pic {
   display: block;
   margin-left: 815px;
   margin-top: -140px;
@@ -96,7 +96,7 @@
   font-weight: 500;
 }
 
-.add-exhibit {
+.acc_add-exhibit {
   margin-top: 2px;
   background: #e8840d;
   color: #ffffff;
@@ -115,7 +115,7 @@
   border-style: none;
 }
 
-.name {
+.acc_name {
   width: 300.95px;
   height: 62px;
   font-family: Hind;
@@ -130,9 +130,9 @@
   margin: 0 auto;
 }
 
-.acc_main p {
-  width: 368px;
-  height: 37px;
+.acc_email {
+  width: 300.95px;
+  height: 62px;
   font-family: Hind;
   font-style: normal;
   font-weight: bold;
@@ -141,13 +141,13 @@
   text-align: center;
   letter-spacing: -0.2px;
   color: #c3c7d2;
+  text-align: center;
   margin: 0 auto;
-  margin-top: 2px;
 }
 
-.subscribed {
+.acc_subscribed {
   display: flex;
-  margin-top: 60px !important;
+  margin-top: 80px !important;
   background-color: #c3c7d2;
   flex-direction: column;
   flex-wrap: wrap;
@@ -161,14 +161,14 @@
   justify-content: center;
 }
 
-.topbox-text {
+.acc_topbox-text {
   display: inline-flex;
   justify-content: space-between;
   margin-top: -122px;
   margin-inline: 20px;
 }
 
-.exhibit-text1 {
+.acc_exhibit-text1 {
   font-family: Hind;
   font-style: normal;
   font-weight: bold;
@@ -177,7 +177,7 @@
   color: #180126;
 }
 
-.exhibit-text2 {
+.acc_exhibit-text2 {
   font-family: Hind;
   font-style: normal;
   font-weight: bold;
@@ -187,12 +187,12 @@
   color: #8a8a8a;
 }
 
-.innerboxes {
+.acc_innerboxes {
   display: flex;
   flex-direction: column;
 }
 
-.topbox {
+.acc_topbox {
   display: flex;
   width: 641px;
   height: 139px;
@@ -201,53 +201,53 @@
   justify-content: center;
 }
 
-.paintings {
+.acc_paintings {
   display: flex;
   margin-top: 55px;
   justify-content: center;
 }
 
-.paintings img {
+.acc_paintings img {
   margin-inline: 12px;
   width: 100px;
   height: 120px;
   margin-top: -45px;
 }
 
-.bottombox {
+.acc_bottombox {
   width: 641px;
   background: #dfdee3;
   border-radius: 15px;
   margin-top: 25px;
 }
 
-.q-history {
+.acc_q-history {
   text-align: center;
   margin-top: 7px;
   font-size: 18px;
 }
 
-.plus1 {
+.acc_plus1 {
   margin-left: 530px;
   margin-top: -28px;
   padding-bottom: 2.5em;
 }
 
-.plus2 {
+.acc_plus2 {
   margin-left: 530px;
   margin-top: -29px;
   padding-bottom: 2.5em;
 }
 
-.plus3 {
+.acc_plus3 {
   margin-left: 530px;
   margin-top: -27px;
   padding-bottom: 2.5em;
 }
 
-.first,
-.second,
-.third {
+.acc_first,
+.acc_second,
+.acc_third {
   width: 440px;
   height: 50px;
   border: 1px solid #000000;
@@ -264,17 +264,17 @@
   font-size: 12px;
 }
 
-.check1 {
+.acc_check1 {
   margin-right: 16px;
   margin-top: 5px;
 }
 
-.check2 {
+.acc_check2 {
   margin-right: 16px;
   margin-top: 5px;
 }
 
-.check3 {
+.acc_check3 {
   margin-right: 16px;
   margin-top: 5px;
 }
