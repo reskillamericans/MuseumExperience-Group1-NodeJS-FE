@@ -1,4 +1,4 @@
-body {
+.reg_body {
   position: absolute;
   width: 1600px;
   height: 1024px;
@@ -6,7 +6,7 @@ body {
   top: 59px;
 }
 /*background image*/
-.image {
+.reg_image {
   background-image: url("./image\ 29.png");
   position: absolute;
   width: 1031px;
@@ -15,7 +15,7 @@ body {
   top: 7px;
 }
 /*form styling*/
-.formcontainer {
+.reg_formcontainer {
   position: absolute;
   width: 800px;
   height: 752px;
@@ -31,12 +31,12 @@ body {
   border-radius: 15px;
 }
 /*inside form styling */
-.form {
+.reg_form {
   display: flex;
   margin-right: 1em;
 }
 
-.F1 {
+.reg_F1 {
   flex: 50%;
 }
 label {

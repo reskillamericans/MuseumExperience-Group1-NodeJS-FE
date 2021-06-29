@@ -3,23 +3,25 @@ import "./Login.css";
 
 function Login() {
   return (
-    <div className="image">
-      <div className="formcontainer">
-        <p className="b1"> Log In </p>
-        <button className="b2">Register</button>
-        <h5>Welcome Back</h5>
-        <h1>Login to access your personal account.</h1>
-        <form action="/actionpage.php" method="GET">
-          <label for="emailaddress">Email Address</label>
-          <input type="email" name="email" id="email"></input>
-          <br></br>
-          <label for="password">Password</label>
-          <input type="password" name="password" id="password"></input>
-        </form>
-        <div>
-          <p className="forgot"> Forgot Password?</p>
+    <div className="login_body">
+      <div className="login_image">
+        <div className="login_formcontainer">
+          <p className="login_b1"> Log In </p>
+          <button className="login_b2">Register</button>
+          <h5>Welcome Back</h5>
+          <h1>Login to access your personal account.</h1>
+          <form>
+            <label for="emailaddress">Email Address</label>
+            <input type="email" name="email" id="email"></input>
+            <br></br>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password"></input>
+          </form>
+          <div>
+            <p className="login_forgot"> Forgot Password?</p>
+          </div>
+          <button className="login_b3">Login</button>
         </div>
-        <button className="b3">Login</button>
       </div>
     </div>
   );
