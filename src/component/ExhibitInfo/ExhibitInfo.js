@@ -11,32 +11,36 @@ function ExhibitInfo() {
     <div className="ex_info">
       <div className="info_container">
         {/* placeholder for drop-down menu component */}
-        <div className="dropDown">
+        <div className="info_dropDown">
           Exhibit Overview<i class="fas fa-chevron-down"></i>
         </div>
         <h1>EDGAR DEGAS</h1>
-        <img className="topImg" src={img5} alt="woman and man in restaurant" />
+        <img
+          className="info_topImg"
+          src={img5}
+          alt="woman and man in restaurant"
+        />
 
-        <a className="curatorBtn" target="_blank" rel="noreferrer" href="#">
+        <a className="info_curatorBtn">
           Ask the Curator<i class="far fa-paper-plane fa-lg"></i>
         </a>
-        <a className="curatorBtn2" target="blank" rel="noreferrer" href="#">
+        <a className="info_curatorBtn2">
           <i class="far fa-comment fa-lg"></i>
         </a>
 
-        <div className="smImgs">
+        <div className="info_smImgs">
           <img
-            className="bottomImg family"
+            className="info_bottomImg family"
             src={img10}
             alt="mother, father, and two daughters formally dressed in a livingroom"
           />
           <img
-            className="bottomImg dancer"
+            className="info_bottomImg dancer"
             src={img11}
             alt="dancer in a white dress holding a yellow fan"
           />
           <img
-            className="bottomImg flowers"
+            className="info_bottomImg flowers"
             src={img12}
             alt="woman leaning on a table next to pot of colorful flowers"
           />
@@ -52,7 +56,7 @@ function ExhibitInfo() {
             faucibus eu sapien in auctor. Nunc tristique et turpis sit amet
             ultrices. Vestibulum eu laoreet massa. Duis eget faucibus nulla.{" "}
           </p>
-          <img className="video" src={img15} alt="" />
+          <img className="info_video" src={img15} alt="" />
           <p className="info_dropInfo">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
             efficitur tristique eros at efficitur. Pellentesque tincidunt
@@ -65,9 +69,7 @@ function ExhibitInfo() {
           </p>
         </div>
 
-        <a className="info_register" target="blank" rel="noreferrer" href="#">
-          Register to Get Updates on This Exhibit
-        </a>
+        <a className="info_register">Register to Get Updates on This Exhibit</a>
       </div>
     </div>
   );
