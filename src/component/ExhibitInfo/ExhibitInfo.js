@@ -1,5 +1,7 @@
 import React from "react";
 import "./ExhibitInfo.css";
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 import img5 from "./imgs/image 5.png";
 import img10 from "./imgs/image 10.png";
 import img11 from "./imgs/image 11.png";
@@ -8,6 +10,8 @@ import img15 from "./imgs/image 15.png";
 
 function ExhibitInfo() {
   return (
+    <>
+      <Navbar />
     <div className="ex_info">
       <div className="info_container">
         {/* placeholder for drop-down menu component */}
@@ -71,7 +75,9 @@ function ExhibitInfo() {
 
         <a className="info_register">Register to Get Updates on This Exhibit</a>
       </div>
-    </div>
+      </div>
+      <Footer />
+      </>
   );
 }
 
