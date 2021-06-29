@@ -132,7 +132,6 @@ a {
   .homepage_imgBtns {
     display: flex;
     gap: 30px;
-    margin-bottom: 117px;
   }
 
   .homepage_topImg {
@@ -149,6 +148,9 @@ a {
     font-size: 16px;
     line-height: 26px;
     padding-top: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .homepage_imgLabel {

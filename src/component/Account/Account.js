@@ -121,6 +121,7 @@ function Account() {
           </div>
         </section>
       </div>
+      <div className="extra"></div>
       <Footer />
     </>
   );
