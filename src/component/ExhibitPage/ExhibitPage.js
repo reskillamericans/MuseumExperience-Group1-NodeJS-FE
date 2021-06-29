@@ -13,48 +13,48 @@ function ExhibitPage() {
       <h1>NOW VIEWING</h1>
       <di className="ex_images">
         <div>
-          <p className="imgLabel">Van Gogh Exhibit</p>
+          <p className="ex_imgLabel">Van Gogh Exhibit</p>
           <img className="" src={gogh} alt="painting of Van Gogh" />
-          <p className="viewBtn">View Exhibit</p>
+          <p className="ex_viewBtn">View Exhibit</p>
         </div>
         <div>
-          <p className="imgLabel">DaVinci Exhibit</p>
+          <p className="ex_imgLabel">DaVinci Exhibit</p>
           <img className="" src={mona} alt="painting of Mona Lisa" />
-          <p className="viewBtn">View Exhibit</p>
+          <p className="ex_viewBtn">View Exhibit</p>
         </div>
         <div>
-          <p className="imgLabel">Degas Exhibit</p>
+          <p className="ex_imgLabel">Degas Exhibit</p>
           <img
             className=""
             src={degas}
             alt="painting of a woman and man in restaurant"
           />
-          <p className="viewBtn">View Exhibit</p>
+          <p className="ex_viewBtn">View Exhibit</p>
         </div>
         <div>
-          <p className="imgLabel">Egyptian Exhibit</p>
+          <p className="ex_imgLabel">Egyptian Exhibit</p>
           <img
             className=""
             src={egypt}
             alt="Egyptian art of a man shooting a bow"
           />
-          <p className="viewBtn">View Exhibit</p>
+          <p className="ex_viewBtn">View Exhibit</p>
         </div>
         <div>
-          <p className="imgLabel">Grecian Sculpture Exhibit</p>
+          <p className="ex_imgLabel">Grecian Sculpture Exhibit</p>
           <img
             className=""
             src={sculpt}
             alt="mid-section of a sculptor of a woman"
           />
-          <p className="viewBtn">View Exhibit</p>
+          <p className="ex_viewBtn">View Exhibit</p>
         </div>
         <div>
-          <p className="imgLabel">Bronze Age Exhibit</p>
+          <p className="ex_imgLabel">Bronze Age Exhibit</p>
           <img className="" src={mask} alt="golden mask of Agamemnon" />
-          <p className="viewBtn">View Exhibit</p>
+          <p className="ex_viewBtn">View Exhibit</p>
         </div>
-        <div className="space"></div>
+        <div className="ex_space"></div>
       </di>
     </div>
   );

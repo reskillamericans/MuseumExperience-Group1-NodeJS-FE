@@ -18,7 +18,7 @@
   margin-bottom: 18px;
 }
 
-.imgLabel {
+.ex_imgLabel {
   /* height: 24px;
     width: 130px; */
   /* border-radius: nullpx; */
@@ -44,7 +44,7 @@
   border: 1px solid #000000;
 }
 
-.viewBtn {
+.ex_viewBtn {
   position: relative;
   height: 26px;
   width: 134px;
@@ -74,7 +74,7 @@
   .exhibit_container > h1 {
     display: none;
   }
-  .viewBtn {
+  .ex_viewBtn {
     display: none;
   }
 
@@ -85,14 +85,14 @@
     margin-bottom: -50px;
   }
 
-  .imgLabel {
+  .ex_imgLabel {
     position: relative;
     top: 435px;
     font-weight: 700;
     /* margin-bottom: 50px; */
   }
 
-  .space {
+  .ex_space {
     height: 210px;
   }
 }
