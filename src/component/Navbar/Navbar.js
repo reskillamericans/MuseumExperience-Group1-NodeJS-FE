@@ -10,7 +10,7 @@ function Navbar() {
         <div class="nav_container">
           <img src={logo} alt="Logo" class="logo" />
 
-          <p>Museum Experience</p>
+          <p className='nav-title'>Museum Experience</p>
 
           <nav>
             <ul>

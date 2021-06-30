@@ -4,8 +4,8 @@ import SearchPage from "./component/SearchPage/SearchPage";
 import Account from "./component/Account/Account";
 import ExhibitInfo from "./component/ExhibitInfo/ExhibitInfo";
 import ExhibitPage from "./component/ExhibitPage/ExhibitPage";
-/* import Login from "./component/Login/Login";
-import Register from "./component/Register/Register"; */
+import Login from "./component/Login/Login";
+import Register from "./component/Register/Register";
 
 function App() {
   return (
@@ -18,10 +18,10 @@ function App() {
           <Route exact path="/info" component={ExhibitInfo} />
           <Route exact path="/exhibit" component={ExhibitPage} />
 
-          {/* 
+
           <Route exact path="/register" component={Register} />
           <Route exact path="/login" component={Login} />
-           */}
+
         </Switch>
       </Router>
     </div>
