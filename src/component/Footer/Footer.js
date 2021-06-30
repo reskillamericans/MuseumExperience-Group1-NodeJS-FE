@@ -22,7 +22,7 @@ function Footer() {
             </p>
             <p class="email">Email Address</p>
             <div class="buttonIn">
-              <input type="text" id="enter" />
+              <input className='footer-input' type="text" id="enter" />
               <button id="signup" className="button">
                 Sign up
               </button>
