@@ -17,11 +17,8 @@ function App() {
           <Route exact path="/account" component={Account} />
           <Route exact path="/info" component={ExhibitInfo} />
           <Route exact path="/exhibit" component={ExhibitPage} />
-
-
           <Route exact path="/register" component={Register} />
           <Route exact path="/login" component={Login} />
-
         </Switch>
       </Router>
     </div>
