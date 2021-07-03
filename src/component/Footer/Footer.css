@@ -49,14 +49,14 @@ footer {
   margin-bottom: 0;
 }
 
-.footer-main ul a {
+.footer-main ul .a {
   color: inherit;
   text-decoration: none;
   opacity: 0.8;
   font-weight: bold;
 }
 
-.footer-main ul a:hover {
+.footer-main ul .a:hover {
   opacity: 1;
 }
 

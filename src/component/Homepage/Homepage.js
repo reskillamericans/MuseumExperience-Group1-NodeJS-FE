@@ -1,5 +1,6 @@
 import React from "react";
 import "./Homepage.css";
+import { Link } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import exhibits from "./imgs/exhibits.png";
@@ -20,34 +21,39 @@ function Homepage() {
           <h1>
             WELCOME TO <br /> MUSEUM EXPERIENCE!
           </h1>
-          <div className="homepage_hero" style={{ backgroundImage: `url(${hero})` }}>
+          <div
+            className="homepage_hero"
+            style={{ backgroundImage: `url(${hero})` }}
+          >
             <div className="homepage_heroCenter">
-              <p className="homepage_heroTitle">Welcome to the Museum Experience!</p>
+              <p className="homepage_heroTitle">
+                Welcome to the Museum Experience!
+              </p>
               <p className="homepage_heroSubTitle">
                 Explore exhibition galleries, videos, articles, and more.
               </p>
-              <a className="homepage_heroLink">
+              <Link className="a hompage_heroLink">
                 <div className="homepage_heroBtn">Click to continue</div>
-              </a>
+              </Link>
             </div>
           </div>
           <div className="homepage_imgBtns">
-            <a>
+            <Link className="a">
               <img className="homepage_topImg" src={exhibits} alt="" />
               <p className="homepage_viewBtn">Exhibits on View</p>
-            </a>
-            <a>
+            </Link>
+            <Link className="a">
               <img className="homepage_topImg" src={ask} alt="" />
               <p className="homepage_viewBtn">Ask a Curator</p>
-            </a>
-            <a>
+            </Link>
+            <Link className="a">
               <img className="homepage_topImg" src={sub} alt="" />
               <p className="homepage_viewBtn">Subscribe to Exhibits</p>
-            </a>
-            <a>
+            </Link>
+            <Link className="a">
               <img className="homepage_topImg" src={contact} alt="" />
               <p className="homepage_viewBtn">Connect with Us</p>
-            </a>
+            </Link>
           </div>
           <div className="homepage_lrgImgs">
             <div>

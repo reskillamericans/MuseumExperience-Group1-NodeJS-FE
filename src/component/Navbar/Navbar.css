@@ -51,16 +51,16 @@ nav li {
   position: relative;
 }
 
-nav ul li .a {
+nav ul li .al {
   color: var(--primarytext);
   text-decoration: none;
 }
 
-nav ul li .a:hover {
+nav ul li .al:hover {
   color: var(--secondarycolor);
 }
 
-nav ul li .a::after {
+nav ul li .al::after {
   content: "";
   display: block;
   height: 2px;
@@ -70,6 +70,6 @@ nav ul li .a::after {
   transition: all ease-in-out 200ms;
 }
 
-nav ul li .a:hover::after {
+nav ul li .al:hover::after {
   width: 100%;
 }

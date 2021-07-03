@@ -1,5 +1,7 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./Login.css";
+import { Link } from "react-router-dom";
 import mobile from "./loginMobile.png";
 
 function Login() {
@@ -14,7 +16,7 @@ function Login() {
           <label for="password">Password</label><br />
           <input type="password" name="password" id="password"></input>
         </form>
-        <a className="login_forgot_mobile" target="_blank" rel="noreferrer" href="#">Forgot your password?</a>
+        <Link className="login_forgot_mobile" target="_blank" rel="noreferrer" href="#">Forgot your password?</Link>
         <button className="login_btn_mobile">Login</button>
       </div>
 
@@ -34,7 +36,7 @@ function Login() {
             <input type="password" name="password" id="password"></input>
           </form>
           <div className='login_form_bottom'>
-            <a className="login_forgot" target="_blank" rel="noreferrer" href="#">Forgot Password?</a>
+            <Link className="login_forgot" target="_blank" rel="noreferrer" href="#">Forgot Password?</Link>
             <button className="login_b3">Login</button>
           </div>
         </div>

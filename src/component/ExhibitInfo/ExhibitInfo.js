@@ -1,5 +1,6 @@
 import React from "react";
 import "./ExhibitInfo.css";
+import { Link } from "react-router-dom"
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import img5 from "./imgs/image 5.png";
@@ -25,28 +26,28 @@ function ExhibitInfo() {
           alt="woman and man in restaurant"
         />
 
-        <a className="info_curatorBtn">
+        <Link className="info_curatorBtn">
           Ask the Curator<i class="far fa-paper-plane fa-lg"></i>
-        </a>
-        <a className="info_curatorBtn2">
+        </Link>
+        <Link className="info_curatorBtn2">
           <i class="far fa-comment fa-lg"></i>
-        </a>
+        </Link>
 
         <div className="info_smImgs">
           <img
             className="info_bottomImg family"
             src={img10}
-            alt="mother, father, and two daughters formally dressed in a livingroom"
+            alt="mother, father, and two daughters formally dressed in Link livingroom"
           />
           <img
             className="info_bottomImg dancer"
             src={img11}
-            alt="dancer in a white dress holding a yellow fan"
+            alt="dancer in Link white dress holding Link yellow fan"
           />
           <img
             className="info_bottomImg flowers"
             src={img12}
-            alt="woman leaning on a table next to pot of colorful flowers"
+            alt="woman leaning on Link table next to pot of colorful flowers"
           />
         </div>
         <div className="info">
@@ -54,7 +55,7 @@ function ExhibitInfo() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
             efficitur tristique eros at efficitur. Pellentesque tincidunt
             ullamcorper velit eu dignissim. Morbi at risus lacus. Suspendisse
-            non augue sit amet turpis blandit dapibus et at leo. Vestibulum a
+            non augue sit amet turpis blandit dapibus et at leo. Vestibulum Link
             rhoncus ex. Integer facilisis metus nulla, vitae hendrerit velit
             venenatis vel. Vestibulum interdum blandit diam et semper. Maecenas
             faucibus eu sapien in auctor. Nunc tristique et turpis sit amet
@@ -65,7 +66,7 @@ function ExhibitInfo() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
             efficitur tristique eros at efficitur. Pellentesque tincidunt
             ullamcorper velit eu dignissim. Morbi at risus lacus. Suspendisse
-            non augue sit amet turpis blandit dapibus et at leo. Vestibulum a
+            non augue sit amet turpis blandit dapibus et at leo. Vestibulum Link
             rhoncus ex. Integer facilisis metus nulla, vitae hendrerit velit
             venenatis vel. Vestibulum interdum blandit diam et semper. Maecenas
             faucibus eu sapien in auctor. Nunc tristique et turpis sit amet
@@ -73,7 +74,7 @@ function ExhibitInfo() {
           </p>
         </div>
 
-        <a className="info_register">Register to Get Updates on This Exhibit</a>
+        <Link className="info_register">Register to Get Updates on This Exhibit</Link>
       </div>
       </div>
       <Footer />
