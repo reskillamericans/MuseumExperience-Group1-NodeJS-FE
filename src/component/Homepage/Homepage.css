@@ -125,9 +125,7 @@
     font-family: Open Sans;
     font-size: 13px;
     letter-spacing: -0.2px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-top: 16px;
   }
 
   .home_container > h1 {
