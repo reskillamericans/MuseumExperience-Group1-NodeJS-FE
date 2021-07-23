@@ -24,37 +24,37 @@ function SearchPage() {
           </div>
         </div>
 
-        <h1 className="resultstext">735 results for "degas"</h1>
-        <div className="artsearch">
-          <div className="degas">
+        <h1 className="search_resultstext">735 results for "degas"</h1>
+        <div className="search_artsearch">
+          <div className="search_degas">
             degas
-            <div className="x">
+            <div className="search_x">
               <img src={image46} alt="x" />
             </div>
           </div>
-          <div className="box-mag">
+          <div className="search_box-mag">
             <img src={image10} alt="box-mag" />
           </div>
         </div>
-        <div className="resultslisting">
+        <div className="search_resultslisting">
           <p>All Results (735)</p>
-          <div className="vl1"></div>
+          <div className="search_vl1"></div>
           <h2> Art (611) </h2>
-          <div className="vl2"></div>
+          <div className="search_vl2"></div>
           <h2>All Press (79) </h2>
-          <div className="vl3"></div>
+          <div className="search_vl3"></div>
           <h2>Exhibitions (15)</h2>
         </div>
 
-        <div className="all-boxes">
-          <div className="container1">
-            <div className="artwork">
+        <div className="search_all-boxes">
+          <div className="search_container1">
+            <div className="search_artwork">
               <b>Artwork</b>
             </div>
-            <img src={image41} alt="art1"></img>
+            <img src={image41} alt="search_art1"></img>
 
-            <div className="description1">
-              <ul class="list">
+            <div className="search_description1">
+              <ul class="search_list">
                 <b>The Absinthe Drinker</b>
                 <li>Edgar Degas (French, Paris 1834-1914 Paris)</li>
                 <li>Date: 1875-76</li>
@@ -63,14 +63,14 @@ function SearchPage() {
             </div>
           </div>
 
-          <div className="container1">
-            <div className="artwork">
+          <div className="search_container1">
+            <div className="search_artwork">
               <b>Artwork</b>
             </div>
             <img src={image17} alt="art2"></img>
 
-            <div className="description2">
-              <ul class="list">
+            <div className="search_description2">
+              <ul class="search_list">
                 <b>The Bellelli Family</b>
                 <li>Edgar Degas (French, Paris 1834-1914 Paris)</li>
                 <li>Date: 1858-1867</li>
@@ -78,14 +78,14 @@ function SearchPage() {
               </ul>
             </div>
           </div>
-          <div className="container1">
-            <div className="artwork">
+          <div className="search_container1">
+            <div className="search_artwork">
               <b>Artwork</b>
             </div>
             <img src={image18} alt="art1"></img>
 
-            <div className="description3">
-              <ul class="list">
+            <div className="search_description3">
+              <ul className="search_list">
                 <b>Dancer with a Fan</b>
                 <li>Edgar Degas (French, Paris 1834-1914 Paris)</li>
                 <li>Date: 1879</li>
@@ -94,14 +94,14 @@ function SearchPage() {
             </div>
           </div>
 
-          <div className="container1">
-            <div className="artwork">
+          <div className="search_container1">
+            <div className="search_artwork">
               <b>Artwork</b>
             </div>
             <img src={image19} alt="art1"></img>
 
-            <div className="description4">
-              <ul class="list">
+            <div className="search_description4">
+              <ul className="search_list">
                 <b>
                   A Woman Seated beside a Vase of Flowers (Madame Paul
                   Valpincon)
@@ -113,7 +113,7 @@ function SearchPage() {
             </div>
           </div>
         </div>
-        <button className="See-more">See More</button>
+        <button className="search_See-more">See More</button>
       </div>
       <Footer />
     </>
