@@ -28,6 +28,10 @@
   margin-left: 25px;
 }
 
+.search_resultstext {
+  margin-left: 50px;
+}
+
 .search-button {
   width: 390px;
   height: 25px;
@@ -56,7 +60,7 @@
   font-size: 33px;
 }
 
-.degas {
+.search_degas {
   width: 900px;
   height: 35px;
   text-align: left;
@@ -67,11 +71,11 @@
   margin-left: 50px;
 }
 
-.artsearch {
+.search_artsearch {
   display: flex;
 }
 
-.resultslisting {
+.search_resultslisting {
   display: flex;
   justify-content: space-around;
   font-family: Hind;
@@ -84,13 +88,13 @@
   margin-left: 15px;
 }
 
-.x {
+.search_x {
   margin-top: -35px;
   position: relative;
   left: 850px;
 }
 
-.box-mag {
+.search_box-mag {
   padding-top: 15px;
   padding-left: 15px;
   border: 2px solid gray;
@@ -98,30 +102,30 @@
   width: 43px;
   justify-items: center;
 }
-.resultslisting > p {
+.search_resultslisting > p {
   color: black;
   font-size: 21px;
 }
 
-.vl1 {
+.search_vl1 {
   border-left: 1px solid gray;
   height: 25px;
   margin-top: 40px;
 }
 
-.vl2 {
+.search_vl2 {
   border-left: 1px solid gray;
   height: 25px;
   margin-top: 40px;
 }
 
-.vl3 {
+.search_vl3 {
   border-left: 1px solid gray;
   height: 25px;
   margin-top: 40px;
 }
 
-.container1 {
+.search_container1 {
   margin-left: 50px;
   border: 1px solid gray;
   border-spacing: 15px;
@@ -135,42 +139,42 @@
   margin-bottom: 35px;
 }
 
-.description1 {
+.search_description1 {
   display: flex;
   margin-left: 285px;
   margin-top: -270px;
 }
 
-.list {
+.search_list {
   list-style-type: none;
   line-height: 4.333em;
   margin-right: 25px;
   margin-bottom: 40px;
 }
 
-.artwork {
+.search_artwork {
   margin-top: -45px;
   padding-top: 15px;
   padding-bottom: 15px;
   margin-right: 25px;
   margin-left: 35px;
 }
-.description2 {
+.search_description2 {
   display: flex;
   margin-left: 285px;
   margin-top: -240px;
 }
-.description3 {
+.search_description3 {
   display: flex;
   margin-left: 285px;
   margin-top: -240px;
 }
-.description4 {
+.search_description4 {
   display: flex;
   margin-left: 285px;
   margin-top: -240px;
 }
-.See-more {
+.search_See-more {
   background: #e8840d;
   border-radius: 50px;
   color: white;
