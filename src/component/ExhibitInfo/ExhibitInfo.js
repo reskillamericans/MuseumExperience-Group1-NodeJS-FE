@@ -8,14 +8,19 @@ import img10 from "./imgs/image 10.png";
 import img11 from "./imgs/image 11.png";
 import img12 from "./imgs/image 12.png";
 import img15 from "./imgs/image 15.png";
+import search from "./imgs/search.png";
 
 function ExhibitInfo() {
   return (
     <>
       <Navbar />
+      <div className='exhibitInfo_dtHeader'>
+        <h1>EDGAR DEGAS</h1>
+        <input type="text" placeholder='Search'></input>
+        <img className="exhibitI_search" src={search} />
+      </div>
       <div className="ex_info">
         <div className="info_container">
-          {/* placeholder for drop-down menu component */}
           <div className="info_dropDown">
             Exhibit Overview<i class="fas fa-chevron-down"></i>
           </div>

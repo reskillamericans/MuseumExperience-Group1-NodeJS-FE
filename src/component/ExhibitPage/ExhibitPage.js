@@ -8,13 +8,19 @@ import degas from "./imgs/degas.png";
 import egypt from "./imgs/egypt.png";
 import sculpt from "./imgs/sculpt.png";
 import mask from "./imgs/mask.png";
+import search from "./imgs/search.png";
 
 function ExhibitPage() {
   return (
     <>
       <Navbar />
       <div className="exhibitPage_container">
-        <h1>NOW VIEWING</h1>
+        <div className='exhibitPage_dtHeader'>
+          <h1>EXHIBITS ON VIEW</h1>
+          <input type="text" placeholder='Search'></input>
+          <img className="exhibitP_search" src={search} />
+        </div>
+        <h1 className='exhibitPage_moHeader'>NOW VIEWING</h1>
         <div className="exhibitPage_images">
           <div>
             <p className="exhibitPage_imgLabel">Van Gogh Exhibit</p>
