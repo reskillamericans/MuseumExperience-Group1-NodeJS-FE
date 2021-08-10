@@ -101,7 +101,7 @@
   .home_dtHeader > input {
     position: relative;
     bottom: 245px;
-    left: 300px;
+    left: 280px;
     width: 590px;
     height: 35px;
     background: #FFFFFF;
@@ -113,7 +113,7 @@
 
   .home_search {
     position: relative;
-    left: 262px;
+    left: 241px;
     bottom: 239px;
   }
 
@@ -196,10 +196,10 @@
 
 @media (min-width: 1430px) {
   .home_dtHeader > input {
-    left: 410px;
+    left: 440px;
   }
 
   .home_search {
-    left: 372px;
+    left: 400px;
   }
 }
