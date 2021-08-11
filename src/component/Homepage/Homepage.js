@@ -11,6 +11,7 @@ import collect from "./imgs/collect.png";
 import fund from "./imgs/fund.png";
 import child from "./imgs/child.png";
 import hero from "./imgs/hero.png";
+import search from "./imgs/search.png";
 
 function Homepage() {
   return (
@@ -18,6 +19,7 @@ function Homepage() {
       <Navbar />
       <div className="homepage">
         <div className="home_container">
+
           <h1>
             WELCOME TO <br /> MUSEUM EXPERIENCE!
           </h1>
@@ -25,6 +27,10 @@ function Homepage() {
             className="homepage_hero"
             style={{ backgroundImage: `url(${hero})` }}
           >
+            <div className='home_dtHeader'>
+              <input type="text" placeholder='Search'></input>
+              <img className="home_search" src={search} />
+            </div>
             <div className="homepage_heroCenter">
               <p className="homepage_heroTitle">
                 Welcome to the Museum Experience!
@@ -69,7 +75,6 @@ function Homepage() {
               <img className="homepage_botImg" src={child} alt="" />
             </div>
           </div>
-          <div className="homepage_space"></div>
         </div>
       </div>
       <Footer />
