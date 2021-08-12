@@ -17,7 +17,7 @@ function ExhibitInfo() {
       <div className='exhibitInfo_dtHeader'>
         <h1>EDGAR DEGAS</h1>
         <input type="text" placeholder='Search'></input>
-        <img className="exhibitI_search" src={search} />
+        <img className="exhibitI_search" alt='magnifier' src={search} />
       </div>
       <div className="ex_info">
         <div className="info_container">
