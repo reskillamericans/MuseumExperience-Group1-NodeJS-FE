@@ -113,4 +113,12 @@
   .exhibitPage_space {
     height: 210px;
   }
+
+  .exhibitP_topimg {
+    margin-top: 10px;
+  }
+
+  .exhibitPage_dt_botimg {
+    margin-top: 10px;
+  }
 }

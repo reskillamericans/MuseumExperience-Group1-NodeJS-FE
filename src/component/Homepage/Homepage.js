@@ -29,7 +29,7 @@ function Homepage() {
           >
             <div className='home_dtHeader'>
               <input type="text" placeholder='Search'></input>
-              <img className="home_search" src={search} />
+              <img className="home_search" alt='magnifier' src={search} />
             </div>
             <div className="homepage_heroCenter">
               <p className="homepage_heroTitle">
